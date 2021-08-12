@@ -2706,7 +2706,7 @@ input, select, textarea {
 			ul.actions.special li:first-child {
 				padding-left: 0;
 			}
-
+	    
 		ul.actions.stacked {
 			-moz-flex-direction: column;
 			-webkit-flex-direction: column;
@@ -4687,3 +4687,15 @@ input, select, textarea {
 		}
 
 	}
+
+
+
+
+	.tech-tag:disabled {
+		/* background-color: #2e79ce; */
+		background-color: #000;
+		opacity: 1.0;
+		color: #ffff !important;
+	}
+
+
